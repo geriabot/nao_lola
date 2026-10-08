@@ -23,7 +23,7 @@ find_package(rcl_interfaces REQUIRED)
 find_package(nao_lola_sensor_msgs REQUIRED)
 find_package(nao_lola_command_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(Boost COMPONENTS system program_options filesystem REQUIRED)
+find_package(Boost COMPONENTS program_options filesystem REQUIRED)
 
 set(THIS_PACKAGE_INCLUDE_DEPENDS
   rclcpp

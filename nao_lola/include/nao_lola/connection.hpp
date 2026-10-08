@@ -30,7 +30,7 @@ public:
   void send(std::string data);
 
 private:
-  boost::asio::io_service io_service;
+  boost::asio::io_context io_service;
   boost::asio::local::stream_protocol::socket socket;
   rclcpp::Logger logger;
 };
